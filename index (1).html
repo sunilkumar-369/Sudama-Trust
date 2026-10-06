@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sudama Trust – Caring for people in need</title>
+<meta name="description" content="Sudama Trust helps elders, children and families with food, clothes and financial support.">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="bar" id="bar">
+  <a class="btn btn-donate btn-sm" href="#donate" data-nav>♥ Donate</a>
+  <a class="brand" href="#home" data-nav><img src="images/logo.png" alt=""><span>Sudama Trust</span></a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i></button>
+</header>
+
+<nav class="menu" id="menu" aria-hidden="true">
+  <a href="#home" data-nav>Home</a>
+  <a href="#about" data-nav>About</a>
+  <a href="#help" data-nav>How we help</a>
+  <a href="#team" data-nav>Team members</a>
+  <a href="#donate" data-nav class="menu-donate">Donate</a>
+</nav>
+<div class="scrim" id="scrim"></div>
+
+<main>
+<section class="hero" id="home">
+  <img class="hero-logo" src="images/logo.png" alt="Sudama Trust logo">
+  <h1>Giving is the<br>simplest way to<br>say “we are family.”</h1>
+  <p>Sudama Trust brings food, clothes and financial support to elders and children who need it most.</p>
+  <div class="hero-actions">
+    <a class="btn btn-donate" href="#donate" data-nav>Donate now</a>
+    <a class="btn btn-ghost" href="#about" data-nav>Our story</a>
+  </div>
+</section>
+
+<section class="sec" id="about">
+  <h2>About Sudama Trust</h2>
+  <p class="lead">The name comes from Sudama, the friend who arrived with only a handful of rice and was welcomed with open arms. We believe no gift is too small, and nobody should go without care.</p>
+  <p class="lead">Every rupee you give goes toward meals, clothing and support for elders, children and families in our community.</p>
+</section>
+
+<section class="sec sec-tint" id="help">
+  <h2>How we help</h2>
+  <div class="circles">
+    <article class="circle">
+      <div class="disc c1"><svg viewBox="0 0 140 140" aria-hidden="true">
+        <circle cx="52" cy="40" r="13" fill="#1b4f8f"/><path d="M30 120c-2-30 2-52 22-52s22 18 20 42z" fill="#1b4f8f"/>
+        <rect x="26" y="78" width="5" height="42" rx="2.5" fill="#8a5a2b"/>
+        <circle cx="104" cy="52" r="10" fill="#f5a31a"/><path d="M92 120c0-30 4-46 12-46s12 16 12 46z" fill="#f5a31a"/>
+        <path d="M72 88l22-6" stroke="#0e6b4b" stroke-width="7" stroke-linecap="round"/></svg></div>
+      <h3>Caring for elders</h3><p>Company, comfort and daily support for older people.</p></article>
+    <article class="circle">
+      <div class="disc c2"><svg viewBox="0 0 140 140" aria-hidden="true">
+        <path d="M30 70h80c0 26-18 42-40 42S30 96 30 70z" fill="#dc3a5e"/><rect x="26" y="64" width="88" height="9" rx="4.5" fill="#b02848"/>
+        <circle cx="52" cy="54" r="9" fill="#f5a31a"/><circle cx="72" cy="48" r="10" fill="#e9c46a"/><circle cx="92" cy="54" r="9" fill="#f5a31a"/>
+        <path d="M60 24c-6 8 6 10 0 18M80 22c-6 8 6 10 0 18" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/></svg></div>
+      <h3>Providing food</h3><p>Warm, nourishing meals for families who go hungry.</p></article>
+    <article class="circle">
+      <div class="disc c3"><svg viewBox="0 0 140 140" aria-hidden="true">
+        <path d="M44 34l26-10 26 10 22 20-16 14-10-8v54H48V60l-10 8-16-14z" fill="#1b4f8f"/>
+        <path d="M58 26c6 10 24 10 24 0" fill="#fff"/><path d="M48 88h48v8H48z" fill="#f5a31a"/>
+        <circle cx="70" cy="112" r="0" fill="none"/></svg></div>
+      <h3>Giving clothes</h3><p>Clean, warm clothing for children and adults in need.</p></article>
+    <article class="circle">
+      <div class="disc c4"><svg viewBox="0 0 140 140" aria-hidden="true">
+        <path d="M58 30c4 8 20 8 24 0l-6-10H64z" fill="#1b4f8f"/>
+        <path d="M60 36C34 56 26 90 38 108c8 12 56 12 64 0 12-18 4-52-22-72z" fill="#1b4f8f"/>
+        <text x="70" y="96" text-anchor="middle" font-size="42" font-weight="800" fill="#fff" font-family="Nunito,sans-serif">₹</text></svg></div>
+      <h3>Financial support</h3><p>Help with school fees, medicine and urgent needs.</p></article>
+  </div>
+</section>
+
+<section class="sec" id="donate">
+  <h2>Donate with UPI</h2>
+  <p class="lead">Scan the QR code with any UPI app, or tap the button on your phone to pay directly.</p>
+  <div class="qr-card">
+    <img src="images/upi-qr.png" alt="UPI QR code for Sudama Trust donations">
+    <p class="qr-name">Sunil Kumar</p>
+    <a class="btn btn-donate btn-wide" id="payBtn" href="upi://pay?pa=7481828141-2@ybl&pn=Sunil%20Kumar&cu=INR&tn=Donation%20to%20Sudama%20Trust">Donate</a>
+    <p class="note" id="payNote" role="status"></p>
+  </div>
+</section>
+
+<section class="sec sec-glass" id="team">
+  <h2>Team members</h2>
+  <p class="lead light">Drag or swipe to meet the people behind the trust.</p>
+  <div class="track" id="track" tabindex="0" aria-label="Team members, scrollable">
+    <article class="glass"><div class="avatar">SK</div><h3>Sunil Kumar</h3><p>Founder</p></article>
+    <article class="glass"><div class="avatar">AB</div><h3>Member name</h3><p>Role</p></article>
+    <article class="glass"><div class="avatar">CD</div><h3>Member name</h3><p>Role</p></article>
+    <article class="glass"><div class="avatar">EF</div><h3>Member name</h3><p>Role</p></article>
+    <article class="glass"><div class="avatar">GH</div><h3>Member name</h3><p>Role</p></article>
+    <article class="glass"><div class="avatar">IJ</div><h3>Member name</h3><p>Role</p></article>
+  </div>
+</section>
+</main>
+
+<footer>
+  <img src="images/logo.png" alt="">
+  <p>© <span id="yr"></span> Sudama Trust. Every gift counts.</p>
+</footer>
+
+<a class="btn btn-donate float-donate" id="floatDonate" href="#donate" data-nav>♥ Donate</a>
+<script src="script.js"></script>
+</body>
+</html>
